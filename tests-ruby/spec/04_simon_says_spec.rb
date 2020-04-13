@@ -5,6 +5,8 @@ describe "Simon says" do
     it "should echo hello" do
       expect(echo("hello")).to eq("hello")
     end
+  end
+
 
     it "should echo bye" do
       expect(echo("bye")).to eq("bye")
